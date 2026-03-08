@@ -1,4 +1,4 @@
-27250046988951271
+27255366348777092
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107919,12 +107919,33 @@ Varistor VF
 2
 2
 mjc_library
+DCF77Rx_A
+
+
+0
+4
+4
+mjc_library
 ESP32 Header
 
 
 0
 16
 16
+mjc_library
+JAN8422
+
+
+0
+14
+14
+mjc_library
+Logo
+
+
+0
+0
+0
 mjc_library
 PLCC-44_THT-Socket
 PLCC, 44 pins, through hole

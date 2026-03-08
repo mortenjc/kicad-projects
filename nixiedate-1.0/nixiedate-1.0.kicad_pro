@@ -476,7 +476,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "retroclock-v1.1.kicad_pro",
+    "filename": "nixiedate-1.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -494,7 +494,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.127,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -585,42 +585,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Farnell",
-          "name": "Farnell",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -666,20 +636,8 @@
   },
   "sheets": [
     [
-      "1da3fa61-2318-4a4f-aced-3b368a82a7d3",
+      "5312f623-1d3c-48a9-892d-a7f2af7571ac",
       "Root"
-    ],
-    [
-      "a569b63b-a296-4e09-8687-954e5edb5068",
-      "DCF77"
-    ],
-    [
-      "6d628243-4c1c-4251-938f-63b5be65e5fb",
-      "ammeter_driver"
-    ],
-    [
-      "d986275d-d772-4ec1-b6f1-d64843f10712",
-      "nixie driver"
     ]
   ],
   "text_variables": {}
